@@ -1,8 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
-import Article from '../components/Article.vue'
+import Produit from '../components/Produit.vue'
 import About from '../components/About.vue'
 import Like from '../components/Like.vue'
+import Login from '../components/Login.vue'
+import Register from '../components/Register.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,9 +15,9 @@ const router = createRouter({
       component: Home,
     },
     {
-      path: '/article',
-      name: 'Article',
-      component: Article
+      path: '/produit',
+      name: 'Produit',
+      component: Produit
     },
     {
       path: '/likes',
@@ -27,6 +29,16 @@ const router = createRouter({
       name: 'About',
       component: About
     },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: Register
+    }
     
   ],
 })

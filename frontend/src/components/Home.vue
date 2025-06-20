@@ -5,7 +5,7 @@
         <div class="text-center md:text-left px-5">
           <h1 class="text-5xl font-bold text-gray-800">
             Bienvenue sur la page<br>
-            des articles de <a class="hover:text-green-500"href="https://www.vinted.fr/member/89110917" target="_blank">@baptistebx</a>
+            des produits de <a class="hover:text-green-500"href="https://www.vinted.fr/member/89110917" target="_blank">@baptistebx</a>
           </h1>
         </div>
 
